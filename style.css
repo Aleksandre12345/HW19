@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&family=Space+Mono:wght@700&display=swap');
+
+* , * ::before *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Red Hat Text';
+    /* background: linear-gradient(180deg, #1D1E28 0.12%, #261C2D 94.84%, #261A2D 100%);
+    background-attachment: fixed; */
+    background-color: #231d2b;
+    background-image: url(./assets/starsmobile.svg);    
+    overflow-x: hidden;
+}
+
+header {
+    margin-top: 100px;
+}
+h1 {
+    display: flex;
+    text-align: center;
+    width: 340px;
+    color: pink;
+    font-size: 18px;
+    font-family: 'Red Hat Text';
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6.14px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.divboxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 18px;
+}
+.box {
+    width: 70px;
+    height: 70px;
+    background: #343650;
+    border-radius: 4px;
+}
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FB5E84;
+    font-size: 36px;
+    font-family: 'Red Hat Text';
+    font-weight: 700;
+    line-height: 71px;
+}
+.txt1 {
+    color: #8385A9;
+    font-size: 7px;
+    font-family: 'Red Hat Text';
+    font-weight: 700;
+    letter-spacing: 2.96px;
+    margin-left: 17px;
+}
+.txt2 {
+    color: #8385A9;
+    font-size: 7px;
+    font-family: 'Red Hat Text';
+    font-weight: 700;
+    letter-spacing: 2.96px;
+    margin-left: 15px;
+}
+.txt3 {
+    color: #8385A9;
+    font-size: 7px;
+    font-family: 'Red Hat Text';
+    font-weight: 700;
+    letter-spacing: 2.96px;
+    margin-left: 8px;
+}
+.txt4 {
+    color: #8385A9;
+    font-size: 7px;
+    font-family: 'Red Hat Text';
+    font-weight: 700;
+    letter-spacing: 2.96px;
+    margin-left: 9px;
+}
+
+
+
+ /* main resolution */
+
+
+
+ /* .mountainmobile {
+    margin-bottom: -399px;
+} */
+
+
+
+
+.mountainmobile {
+    margin-top: 260px;
+    margin-bottom: -30px;
+}
+
+.icons {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    margin-left: -60px;
+}
+.mountaindesktop {
+    display: none;
+}
